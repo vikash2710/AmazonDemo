@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="247.388">
+    <testcase classname="Search and Add" name="Search and Add Items" time="246.966">
+        <failure message="expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]" type="java.lang.AssertionError"><![CDATA[Given user login into the website...........................................failed
+When search for Apple Watch.................................................skipped
+Then user select New Apple Watch SE (GPS, 40mm) - Space Grey Aluminium Case with Black Sport Band.skipped
+
+StackTrace:
+java.lang.AssertionError: expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at StepDefinition.Login.user_login_into_the_web(Login.java:29)
+	at ✽.user login into the website(file:///D:/Automation/AmazonPractice/./src/main/java/Features/searchandadditems.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>

@@ -1,0 +1,63 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-08T05:52:49.901Z",
+        "line": 4,
+        "name": "Search and Add Items",
+        "description": "",
+        "id": "search-and-add;search-and-add-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected [Amazon Sign In] but found [Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]\r\n\tat org.testng.Assert.fail(Assert.java:99)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:1037)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:140)\r\n\tat org.testng.Assert.assertEquals(Assert.java:122)\r\n\tat org.testng.Assert.assertEquals(Assert.java:629)\r\n\tat org.testng.Assert.assertEquals(Assert.java:639)\r\n\tat StepDefinition.Login.user_login_into_the_web(Login.java:29)\r\n\tat ✽.user login into the website(file:///D:/Automation/AmazonPractice/./src/main/java/Features/searchandadditems.feature:5)\r\n",
+              "duration": 246890895700,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user login into the website",
+            "match": {
+              "location": "StepDefinition.Login.user_login_into_the_web()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "search for Apple Watch",
+            "match": {
+              "location": "StepDefinition.searchandadditems.search_for_Apple_Watch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user select New Apple Watch SE (GPS, 40mm) - Space Grey Aluminium Case with Black Sport Band",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@searchandadditems"
+          }
+        ]
+      }
+    ],
+    "name": "Search and Add",
+    "description": "",
+    "id": "search-and-add",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/searchandadditems.feature",
+    "tags": []
+  }
+]
